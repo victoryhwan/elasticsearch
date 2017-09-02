@@ -63,7 +63,7 @@ public class RestDeleteByQueryAction extends AbstractBulkByQueryRestHandler<Dele
         consumers.put("conflicts", o -> internal.setConflicts((String) o));
 
         parseInternalRequest(internal, request, consumers);
-
+	String str = "test";
         return internal;
     }
 }
