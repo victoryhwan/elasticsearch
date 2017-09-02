@@ -79,6 +79,8 @@ class BulkByScrollParallelizationHelper {
             ));
         } else {
             sliceConditionally(request, task, action, listener, client, node, workerAction, request.getSlices());
+
+	    String str2 = "test test zz";
         }
     }
 
